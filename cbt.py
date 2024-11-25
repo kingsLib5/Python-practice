@@ -62,7 +62,7 @@ def run_test():
         for option in question["options"]:
             print(option)
 
-        user_answer = input("Your answer: ").strip().upper()
+        user_answer = input("Your answer: ").strip().upperc()
         correct_answer = question["correct"]
 
         if user_answer == correct_answer:
