@@ -43,12 +43,11 @@ for loop: iterates over a sequence
 while loop: repeats as long as a condition is true.
 
 9. How do you write a function in Python? Write a simple function to calculate the square of a number.
-A function is defined using the def keyword.
+ans: A function is defined using the def keyword.
 
 Example:
 
-python
-Copy code
+
 def square(num):
     return num ** 2
 
@@ -56,12 +55,9 @@ print(square(5))  # Output: 25
 
 
 10. What is the purpose of the len() function in Python? Demonstrate it by finding the length of a string.
-The len() function returns the number of items in a sequence (e.g., string, list).
+ans: The len() function returns the number of items in a sequence (e.g., string, list).
 
 Example:
-
-python
-Copy code
 my_string = "Hello, World!"
 print(len(my_string))  # Output: 13
 
