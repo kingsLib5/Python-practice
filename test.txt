@@ -1,0 +1,304 @@
+1: What is Python, and Why is is it popular
+ans: Python is a programming language that is used to build powerful software
+ and well integrate web sites, python is popular based on the ease to learn and
+ advance integrate tools to build software like the most popular AI.
+
+2:How do you write a comment in Python? Why are comments important?
+ans: A comment in Python begins with # symbol and """
+Comment is important because it makes code easier to understand and helps in debugging
+
+3: What is the difference between print() and input() and give th example.
+ans: print() displayes the data to the screen 
+print("hello world")
+input() collect data to be used
+input("please enter you name: ")
+
+4:How do you declare and initialize variables in python?
+ variables in python are declare by assigning a value using the = operator
+x = 10
+
+5:What are the basic data types in Python? Provide examples for int, float, string and boolean
+ans: int (int(10))
+string = "this is a string"
+float = 3.24
+boolean = is_active
+
+6:What is the difference between a list and a tuple in python?
+ans: list is a mutable and can be modified , []
+while tuple is immutable and cannot be modified, ()
+
+7:What are conditional statements in python? write a program to check if a number is positive and negative, or zero?
+ans: conditional statements in python execute specific blocks of code based on the condition
+num = int(input("enter a number: "))
+if num > 0:
+    print("the number is positive")
+elif num < 0:
+    print("the number is negative: ")
+else:
+    print("the number is zero: ")
+
+8:Explain the concept of loops in Python. What is the difference between a for loop and a while loop?
+ans:  loops are used to execute a block of code repeatedly.
+for loop: iterates over a sequence
+while loop: repeats as long as a condition is true.
+
+9. How do you write a function in Python? Write a simple function to calculate the square of a number.
+A function is defined using the def keyword.
+
+Example:
+
+python
+Copy code
+def square(num):
+    return num ** 2
+
+print(square(5))  # Output: 25
+
+
+10. What is the purpose of the len() function in Python? Demonstrate it by finding the length of a string.
+The len() function returns the number of items in a sequence (e.g., string, list).
+
+Example:
+
+python
+Copy code
+my_string = "Hello, World!"
+print(len(my_string))  # Output: 13
+
+
+11:What is Python, and why is it popular?
+ans:Python is a versatile, high-level programming language known for its simplicity and readability.
+
+Why it is popular:
+
+Easy to learn and use.
+Extensive libraries and frameworks.
+Cross-platform compatibility.
+Wide applications e.g., web development, AI, data science.
+Strong community support.
+
+
+12:What are the basic rules for naming variables in Python?
+ans:Variable names must start with a letter or an underscore (_).
+Subsequent characters can include letters, numbers, or underscores.
+Variable names are case-sensitive.
+Reserved keywords cannot be used as variable names.
+Examples:
+Valid: name, _value, age1
+Invalid: 1age, name#, class
+
+
+13:What is the difference between dynamically typed and statically typed languages? Which type is Python?
+ans: Dynamically typed: Variables do not need explicit type declarations. Types are determined at runtime. (e.g., Python)
+Statically typed: Variable types must be declared explicitly before use. (e.g., Java, C++)
+Python is dynamically typed.
+
+Example in Python:
+
+x = 5       # x is an integer
+x = "Hello" # x is now a string
+
+How do you display a message on the screen using Python? Provide an example.
+ans:Use the print() function to display messages.
+
+Example:
+
+print("Hello, World!")  # Output: Hello, World!
+
+
+14:What are the basic data types in Python? Provide examples of int, float, string, and boolean.
+ans:int: Whole numbers. Example: x = 42
+float: Decimal numbers. Example: y = 3.14
+string: Text. Example: name = "Alice"
+boolean: True/False values. Example: is_active = True
+Examples:
+
+x = 10       # int
+y = 3.14     # float
+name = "Bob" # string
+is_active = False # boolean
+
+
+15:What is the difference between mutable and immutable data types in Python? Give examples.
+ans:Mutable: Can be changed after creation. (e.g., lists, dictionaries)
+Immutable: Cannot be changed after creation. (e.g., strings, tuples)
+Examples:
+
+# Mutable
+my_list = [1, 2, 3]
+my_list[0] = 10  # Allowed
+
+# Immutable
+my_tuple = (1, 2, 3)
+# my_tuple[0] = 10  # Error: Cannot modify a tuple
+
+
+16:How do you perform type conversion in Python? Convert a string to an integer with an example.
+ans:Use built-in functions like int(), float(), str(), etc.
+
+Example:
+
+num_str = "123"
+num_int = int(num_str)  # Converts string to integer
+print(num_int)  # Output: 123
+
+
+17:What are conditional statements in Python? Write a program to check if a number is even or odd.
+ans:Conditional statements allow decision-making in code using if, elif, and else.
+
+Example Program:
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
+18:Explain the difference between if, elif, and else in Python.
+ans: if: Evaluates the first condition.
+elif: Adds more conditions if the previous if or elif is false.
+else: Executes if none of the conditions are true.
+Example:
+
+x = 5
+if x > 10:
+    print("Greater than 10")
+elif x == 5:
+    print("Equal to 5")
+else:
+    print("Less than 5")
+
+
+19:Write a program to find the largest of three numbers using if-else statements.
+ans: a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a > b and a > c:
+    print("Largest is", a)
+elif b > c:
+    print("Largest is", b)
+else:
+    print("Largest is", c)
+
+
+20:What are loops in Python? What is the difference between a for loop and a while loop?
+ans: Loops are used to repeat a block of code.
+
+For loop: Iterates over a sequence.
+While loop: Repeats as long as a condition is true.
+Examples:
+
+# For loop
+for i in range(5):
+    print(i)
+
+# While loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+
+21:Write a program to print the first 10 numbers of a multiplication table for a given number.
+
+ans: num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+
+
+22:What is the purpose of the break and continue statements in loops? Provide examples.
+
+ans: break: Exits the loop prematurely.
+continue: Skips the current iteration and continues to the next.
+Examples:
+
+
+# Break example
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+# Continue example
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+
+23:Write a program to calculate the sum of all numbers from 1 to 100 using a for loop.
+
+ans: total = 0
+for i in range(1, 101):
+    total += i
+print("Sum:", total)
+
+
+24:What is a function in Python, and why is it used?
+
+ans: A function is a reusable block of code that performs a specific task. Functions help improve modularity and code reuse.
+
+Example:
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+25:Write a function to calculate the area of a rectangle.
+
+ans: def rectangle_area(length, width):
+    return length * width
+
+print(rectangle_area(5, 3))  # Output: 15
+
+
+26:What are default arguments in Python functions? Provide an example.
+ans:Default arguments are parameters with default values.
+
+Example:
+
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+greet()          # Output: Hello, Guest!
+greet("Alice")   # Output: Hello, Alice!
+
+
+27:What is the difference between a list, tuple, and set in Python?
+ans: List: Mutable, allows duplicates.
+Tuple: Immutable, allows duplicates.
+Set: Mutable, no duplicates.
+Example:
+
+my_list = [1, 2, 3]
+my_tuple = (1, 2, 3)
+my_set = {1, 2, 2, 3}  # Output: {1, 2, 3}
+
+
+28:How do you add and remove elements in a list? Provide examples using append(), insert(), and remove().
+
+my_list = [1, 2, 3]
+
+my_list.append(4)     # Add to the end
+my_list.insert(1, 10) # Add at index 1
+my_list.remove(2)     # Remove the first occurrence of 2
+
+print(my_list)  # Output: [1, 10, 3, 4]
+
+
+29:What is a dictionary in Python? Create a dictionary to store information about a student and retrieve values by keys.
+ans: A dictionary is a collection of key-value pairs.
+
+Example:
+
+python
+Copy code
+student = {
+    "name": "John",
+    "age": 21,
+    "major": "Computer Science"
+}
+
+print(student["name"])  # Output: John
+print(student["age"])   # Output: 21
