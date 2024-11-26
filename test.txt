@@ -288,8 +288,6 @@ ans: A dictionary is a collection of key-value pairs.
 
 Example:
 
-python
-Copy code
 student = {
     "name": "John",
     "age": 21,
